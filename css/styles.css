@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Dela;
+    src: url(DelaGothicOne-Regular.ttf);
+}
+
+body {
+    font-family: Dela, Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #333;
+}
+
+h1 {
+    color: #ccc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Dela;
+}
+
+#newTask {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cfcfcf;
+    color: #333;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Dela;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #cbcbcb;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Dela;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4f4f4f;
+    color: #c2c2c2;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: Dela;
+}
+
+
+
+button:hover {
+    background-color: #706f6f;
+    transform: scale(1.05);
+}
+
+#actions {
+    margin-top: 10px;
+}
+
+#actions button {
+    margin-right: 10px;
+}
+
+.addbtn {
+    width: 100px;
+}
+
+
+
