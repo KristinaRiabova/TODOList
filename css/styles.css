@@ -85,6 +85,15 @@ button:hover {
 .addbtn {
     width: 100px;
 }
+.active {
+    background-color: #575757;
+    font-weight: bold; 
+}
 
+
+.act_task{
+    color: #ccc;
+    margin-bottom: 10px;
+}
 
 
